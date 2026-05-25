@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Peticion 5</title>
+</head>
+<body>
+<h1>Peticion 5</h1>
+<div th:if="${mejorEstudiante != null}">
+    Nombre: <span th:text="${mejorEstudiante.nombre}"></span><br>
+    Edad: <span th:text="${mejorEstudiante.edad}"></span><br>
+    Promedio: <span th:text="${mejorEstudiante.promedio}"></span>
+</div>
+</body>
+</html>
